@@ -8,17 +8,25 @@
 <body>
 <h3>HTML duomenu ivedimo forma</h3>
 <form>
-    <p>Iveskite savo varda:
-        <input name="name" type="text">
+    <p><lable for="name">Iveskite savo varda:</lable>
+        <input name="name" type="text" id="name">
     </p>
-    <p>Iveskite savo pavarde:
-        <input name="surename" type="text">
+    <p><label for="surname">Iveskite savo pavarde:</label>
+        <input name="surename" type="text" id="surname">
     </p>
-    <p>Iveskite savo elektronini pasta:
+    <p><label>Iveskite savo elektronini pasta:</label>
         <input name="email" type="email">
     </p>
-    <p>Iveskite savo telefono numeri:
+    <p><label>Iveskite savo telefono numeri:</label>
         <input name="tel" type="tel">
+    </p>
+    <p>
+        <label for="date_from">Nuomos data nuo:</label>
+        <input type="date" id="date_from" name="date_from">
+    </p>
+    <p>
+        <label for="date_to">Nuomos data iki:</label>
+        <input type="date" id="date_to" name="date_to">
     </p>
     <p>
     <label for="nuoma">Pasirinkite paslauga:</label>
