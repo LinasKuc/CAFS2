@@ -4,24 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        legend {
+            padding: 5px 10px;
+        }
+    </style>
 </head>
 <body>
     <form action="" method="post">
-        <div>
-            <p><label for="1">Pasirinkite mygtuka</label></p>
+        <fieldset>
+            <legend><label for="1">Pasirinkite mygtuka</label></legend>
             <input type="radio" id="1" name="button" value="1">
             <input type="radio" id="2" name="button" value="2">
             <input type="radio" id="3" name="button" value="3">
             <input type="text" name="name" value="Jusu vardas">
-        </div>
-        <div>
-            <p><label for="11">Pasirinkite kita mygtuka</label></p>
+        </fieldset>
+        <fieldset>
+            <legend><label for="11">Pasirinkite kita mygtuka</label></legend>
             <input type="radio" id="11" name="button2" value="11" checked>
             <input type="radio" id="22" name="button2" value="22">
             <input type="radio" id="33" name="button2" value="33">
             <input disabled type="radio" id="44" name="button2" value="44">
             <input disabled type="radio" id="55" name="button2" value="55">
-        </div>
+        </fieldset>
         <button>Siusti i serveri</button>
     </form>
 </body>
