@@ -4,7 +4,7 @@
 
 .first {
     background-color: #f1f1f1;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     font-size: 35px;
     align-items: center;
@@ -20,7 +20,7 @@
 
 .column {
     float: left;
-    width: 33.30%;
+    width: 33.33%;
     height: 100vh;
     background-color: bisque;
 }
