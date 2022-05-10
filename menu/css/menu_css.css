@@ -1,17 +1,14 @@
-
-li:hover a{
-    color: red;
+a:hover, li:hover{
+    background-color: gray;
 }
 .menu>ul>li{
     display: inline-block;
     font-weight: 900;
     color: blue;
-    width: 200px;
-    height: 20px;
+    height: 15px;
     padding: 15px;
     border: 1px solid blue;
     margin: 5px;
-    list-style-type:none;
 }
 .menu>ul>li>a{
     text-decoration: none;
