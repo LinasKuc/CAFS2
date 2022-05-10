@@ -1,5 +1,6 @@
 a:hover, li:hover{
     background-color: gray;
+    color: red;
 }
 .menu>ul>li{
     display: inline-block;
