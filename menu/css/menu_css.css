@@ -1,14 +1,14 @@
 a:hover, li:hover{
-    /*list-style-position: inside;*/
+    list-style-position: inside;
     /*text-decoration: none;*/
-    background-color: red;
-    color: #f1f1f1;
+    /*background-color: red;*/
+    color: red;
 }
 li:hover a{
-    color: #f1f1f1;
+    color: red;
 }
 .menu>ul>li{
-    /*display: inline-block;*/
+    display: inline-block;
     font-weight: 900;
     color: blue;
     width: 200px;
