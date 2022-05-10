@@ -1,9 +1,4 @@
-a:hover, li:hover{
-    list-style-position: inside;
-    /*text-decoration: none;*/
-    /*background-color: red;*/
-    color: red;
-}
+
 li:hover a{
     color: red;
 }
