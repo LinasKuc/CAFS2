@@ -1,0 +1,19 @@
+.res {
+    width: 100%;
+    height: 250px;
+    background-color: blue;
+}
+@media only screen and (min-width: 786px){
+    .res {
+        background-color: yellow;
+        height: 350px;
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .res {
+        background-color: green;
+        height: 450px;
+        width: 33.33%;
+    }
+}
