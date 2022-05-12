@@ -33,11 +33,14 @@
         display: flex;
         flex-flow: wrap;
     }
-    .silver {width: 48.9%;
+    .silver {
+        width: 48%;
+        flex-grow: 1;
     }
     .silver2 {
         height: 50px;
-        width: 48.9%;
+        width: 48%;
+        flex-grow: 1;
         background-color: silver;
         margin: 5px;
     }
