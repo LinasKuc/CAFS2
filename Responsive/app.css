@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.orange {
+    height: 50px;
+    width: 100%;
+    background-color: orange;
+    margin: 5px;
+}
+.green {
+    height: 90px;
+    width: 100%;
+    background-color: greenyellow;
+    margin: 5px;
+}
+.blue {
+    height: 150px;
+    width: 100%;
+    background-color: dodgerblue;
+    margin: 5px;
+}
+.silver {
+    height: 50px;
+    width: 100%;
+    background-color: silver;
+    margin: 5px;
+}
+@media only screen and (min-width: 768px){
+    .green {height: 180px;}
+    .blue {height: 80px;}
+    .container2 {
+        display: flex;
+        flex-flow: wrap;
+    }
+    .silver {width: 48.9%;
+    }
+    .silver2 {
+        height: 50px;
+        width: 48.9%;
+        background-color: silver;
+        margin: 5px;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .container4 {
+        display: flex;
+    }
+    .orange {
+        width: 48.9%;
+    }
+    .green {height: 280px;}
+    .container3{
+        display: flex;
+
+    }
+    .blue {height: 180px;}
+
+    .container2 {
+        display: flex;
+    }
+    .silver {
+        width: 24%;
+        height: 150px;
+    }
+    .silver2 {
+        height: 150px;
+        width: 24%;
+        background-color: silver;
+        margin: 5px;
+    }
+}
