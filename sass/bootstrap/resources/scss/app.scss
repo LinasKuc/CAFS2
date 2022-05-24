@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap");
+
+
+$headings-font-family: "Nunito Sans";
+$headings-font-weight:        600;
+ 
+@import "~bootstrap/scss/bootstrap";
+
+
+
+
+.button{
+    color: #303ca5;
+    border-color: #303ca5;
+}
+
+.textcolor{
+    color: #080f1a;
+}
+
+.bgcolor{
+    background-color: #f4f6fc; //neveikia
+}
+p{
+    color: #73829e;
+}
