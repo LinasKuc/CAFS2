@@ -5,6 +5,4 @@ let user = {
     lastName: "Pavarde"
   };
 
-  userInfoOutput.innerHTML =
-	`<h2>User Information:</h2>` +
-	`<p>User name: ${user.firstName}, Last name: ${user.lastName}.</p>`;
+  userInfoOutput.innerHTML = ("<h2>User Information:</h2>" + `<p>User name: ${user.firstName}, Last name: ${user.lastName}.</p>`);
