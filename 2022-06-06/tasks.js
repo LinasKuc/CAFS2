@@ -118,7 +118,7 @@ arr5 = [2, 7, 6, 9, 5];
 function checkIfAllSmaller(arr, max){
     let count = 0;
     for (let i = 0; i < arr.length; i++) {
-        if (arr[i] <= max){
+        if (arr[i] < max){
             count++;
         }
     }
@@ -201,7 +201,6 @@ function calculateValue(num1, num2, action){
             default:
                 return rez;
           }
-          
           return rez;
     }
     else return ("Reikšmės nėra skaičiai");
